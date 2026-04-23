@@ -19,7 +19,7 @@ function Home() {
         <li>Email: mulamallasathwikreddy28@gmail.com</li>
         <li>Skills: HTML, CSS, JavaScript, React</li>
       </ul>
-      <img src="<img src="/profile.jpg" alt="Profile" width="150" />
+      <img src="/profile.jpg" alt="Profile" width="150" />
       
     </div>
   );
