@@ -60,25 +60,6 @@ function Projects() {
   );
 }
 
-  return (
-    <div>
-      <h1>My Projects</h1>
-
-      <div>
-        <h3>Portfolio Website</h3>
-        <a href="https://github.com/saisathwik-mulamalla/portfolio" target="_blank">
-          View Project
-        </a>
-      </div>
-
-      <div>
-        <h3>Task Manager App</h3>
-        <a href="https://github.com/Karthikeya029/SE-Project" target="_blank">
-          View Project
-        </a>
-      </div>
-    </div>
-  );
 
 function App() {
   return (
