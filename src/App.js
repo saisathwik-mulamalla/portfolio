@@ -1,9 +1,10 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
+import "./App.css";
 
 function Home() {
   return (
-    <div>
+    <div className="container">
       <h1>My Portfolio</h1>
 
       <h2>About Me</h2>
@@ -24,6 +25,7 @@ function Home() {
         src={process.env.PUBLIC_URL + "/profile.jpg"}
         alt="Profile"
         width="150"
+        className="profile-img"
       />
     </div>
   );
@@ -31,33 +33,49 @@ function Home() {
 
 function Projects() {
   return (
-    <div>
+    <div className="container">
       <h1>My Projects</h1>
 
-      <div>
+      <div className="project-card">
         <h3>Portfolio Website</h3>
-        <a href="https://github.com/saisathwik-mulamalla/portfolio" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/saisathwik-mulamalla/portfolio"
+          target="_blank"
+          rel="noreferrer"
+        >
           View Project
         </a>
       </div>
 
-      <div>
+      <div className="project-card">
         <h3>SE Project</h3>
-        <a href="https://github.com/Karthikeya029/SE-Project" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/Karthikeya029/SE-Project"
+          target="_blank"
+          rel="noreferrer"
+        >
           View Project
         </a>
       </div>
 
-      <div>
+      <div className="project-card">
         <h3>Gym Management System</h3>
-        <a href="https://github.com/Karthikeya029/GymManagementSystem" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/Karthikeya029/GymManagementSystem"
+          target="_blank"
+          rel="noreferrer"
+        >
           View Project
         </a>
       </div>
 
-      <div>
+      <div className="project-card">
         <h3>NLP Project</h3>
-        <a href="https://github.com/navvyah2005/NLP-PROJECT" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/navvyah2005/NLP-PROJECT"
+          target="_blank"
+          rel="noreferrer"
+        >
           View Project
         </a>
       </div>
