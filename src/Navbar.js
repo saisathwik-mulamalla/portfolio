@@ -1,12 +1,13 @@
-import { NavLink } from "react-router-dom";
-
 function Navbar() {
   return (
     <nav style={{ padding: "10px", background: "#222" }}>
-      <NavLink to="/">Home</NavLink>
-<NavLink to="/projects">Projects</NavLink>
+      <NavLink to="/" style={{ color: "white", marginRight: "20px" }}>
+        Home
+      </NavLink>
+
+      <NavLink to="/projects" style={{ color: "white" }}>
+        Projects
+      </NavLink>
     </nav>
   );
 }
-
-export default Navbar;
