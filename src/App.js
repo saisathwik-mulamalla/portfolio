@@ -24,7 +24,6 @@ function Home() {
     </div>
   );
 }
-
 function Projects() {
   return (
     <div>
@@ -32,20 +31,54 @@ function Projects() {
 
       <div>
         <h3>Portfolio Website</h3>
-        <a href="https://github.com/your-username/portfolio">
+        <a href="https://github.com/saisathwik-mulamalla/portfolio" target="_blank" rel="noreferrer">
           View Project
         </a>
       </div>
 
       <div>
-        <h3>Task Manager App</h3>
-        <a href="https://github.com/your-username/task-manager">
+        <h3>SE Project</h3>
+        <a href="https://github.com/Karthikeya029/SE-Project" target="_blank" rel="noreferrer">
+          View Project
+        </a>
+      </div>
+
+      <div>
+        <h3>Gym Management System</h3>
+        <a href="https://github.com/Karthikeya029/GymManagementSystem" target="_blank" rel="noreferrer">
+          View Project
+        </a>
+      </div>
+
+      <div>
+        <h3>NLP Project</h3>
+        <a href="https://github.com/navvyah2005/NLP-PROJECT" target="_blank" rel="noreferrer">
           View Project
         </a>
       </div>
     </div>
   );
 }
+
+  return (
+    <div>
+      <h1>My Projects</h1>
+
+      <div>
+        <h3>Portfolio Website</h3>
+        <a href="https://github.com/saisathwik-mulamalla/portfolio" target="_blank">
+          View Project
+        </a>
+      </div>
+
+      <div>
+        <h3>Task Manager App</h3>
+        <a href="https://github.com/Karthikeya029/SE-Project" target="_blank">
+          View Project
+        </a>
+      </div>
+    </div>
+  );
 
 function App() {
   return (
