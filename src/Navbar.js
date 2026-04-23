@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav style={{ padding: "10px", background: "#222" }}>
@@ -11,3 +13,5 @@ function Navbar() {
     </nav>
   );
 }
+
+export default Navbar;
